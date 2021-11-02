@@ -1,0 +1,31 @@
+$font-size: (
+  "small": calc(0.8rem + 1vw),
+  "regular": 1.5rem,
+  "large": calc(1.5rem + 2vw),
+);
+
+@function font-size($style) {
+  @return map-get($map: $font-size, $key: $style);
+}
+
+$font-weights: (
+  "regular": 400,
+  "bold": 500,
+  "bolder": 700,
+);
+
+@function font-weight($style) {
+  @return map-get($map: $font-weights, $key: $style);
+}
+
+$breakpoints-up: (
+  "small": 400px,
+  "medium": 600px,
+  "tablet": 860px,
+  "desktop": 1000px,
+  "xlarge": 1300px,
+);
+
+@function breakpoint($style) {
+  @return map-get($map: $breakpoints-up, $key: $style);
+}

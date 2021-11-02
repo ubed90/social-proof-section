@@ -1,0 +1,10 @@
+.container {
+    width: unquote($string: "min(85% , 130rem)");
+    // margin: 0 auto;
+    margin: 8rem auto;
+    text-align: center;
+
+    @include media-tablet {
+        margin: 0 auto;
+    }
+}
