@@ -139,8 +139,14 @@
             &__status {
                 font-size: 0.8em;
                 place-self: start;
-                color: var(--clr-tertiary);
+                color: var(--clr-secondary);
+                font-weight: font-weight(bold);
             }
+        }
+
+        &--feedback {
+            color: var(--clr-tertiary);
+            font-weight: font-weight(bold);
         }
     }
 

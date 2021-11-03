@@ -214,7 +214,13 @@ input[type="text"] {
 .lower__box--user__status {
   font-size: 0.8em;
   place-self: start;
+  color: var(--clr-secondary);
+  font-weight: 500;
+}
+
+.lower__box--feedback {
   color: var(--clr-tertiary);
+  font-weight: 500;
 }
 
 @media screen and (min-width: 860px) {
